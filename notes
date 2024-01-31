@@ -1,3 +1,5 @@
+Author: Raj.
+Company: SHOW TIME CONSULTANCY
 Project  Setup
     
     Software:
@@ -7,16 +9,17 @@ Project  Setup
         node.js(LTS):
             -Environment Variables ->Setup
             -nvm - (node version manger)[nvm v16] --> to change the node versions
-            -npm - (node Package manger)[npm i packagename]
+            -npm - (node Package manger)[npm i packagename][npm i nvm]
+            -npx - npx create-react-app paytm_clone (Installing react, react-dom, and react-scripts with cra-template)
+        Version Control:
+            -GitHub (https://git-scm.com/)
+            -Git status
+
         Code Editor:
             -Visual Studio Code - VSC
 
     Optional:
 
-
-
-    npx,
-    npm,
 
     Folder Structure : 
         Create a folder in React - npx create-react-app || VIT
