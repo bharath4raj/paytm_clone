@@ -1,0 +1,23 @@
+Project  Setup
+    
+    Software:
+        Realtime - Software Request - Manager Approval
+        
+
+        node.js(LTS):
+            -Environment Variables ->Setup
+            -nvm - (node version manger)[nvm v16] --> to change the node versions
+            -npm - (node Package manger)[npm i packagename]
+        Code Editor:
+            -Visual Studio Code - VSC
+
+    Optional:
+
+
+
+    npx,
+    npm,
+
+    Folder Structure : 
+        Create a folder in React - npx create-react-app || VIT
+
