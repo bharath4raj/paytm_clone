@@ -5,20 +5,14 @@ const BusinessHeaderContainer = () => {
     const [menuItems,setMenuItems] = useState([]);
 
     useEffect(() => {
-        fetch("/responses/defaultNavLinks.json")
+        fetch("./responses/business-header-component.json")
           .then((res) => res.json())
           .then((response) => {
             console.log("Ajax Response:", response);
             setMenuItems(response.data);
           })
-          .catch((error) => {
-            console.error("Error fetching data:", error);
-          });
       }, []);
-    
-      useEffect(() => {
-        console.log("menuItems", menuItems);
-      }, []);
+      console.log("Menu Items",menuItems)
 
     return <BusinessHeaderComponent menuItems={menuItems}/>
 }

@@ -4,6 +4,7 @@ import React from "react";
 const NavComponent = ({ menuItems }) => {
     console.log("menuItems", menuItems);
     return <nav className="nav">
+        { menuItems.length === 0 && "Loading..."}
         <ul className="flex nav-links">
             {
                menuItems && 

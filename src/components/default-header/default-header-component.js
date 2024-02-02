@@ -4,7 +4,7 @@ import Logo from "../common/logo";
 import Nav from "../common/nav";
 
 
-const DefaultHeaderComponent = (...props) => {
+const DefaultHeaderComponent = (props) => {
     
     return <div className="flex">
         <Logo src={defaultlogo}/>
