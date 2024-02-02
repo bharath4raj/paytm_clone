@@ -14,6 +14,10 @@ Project  Setup
         Version Control:
             -GitHub (https://git-scm.com/)
             -Git status
+            -git add .
+            -git commit -m "message"
+            -git push -u origin dev
+            -git checkout -b dev    :jira number -createing dev branch for development
 
         Code Editor:
             -Visual Studio Code - VSC
@@ -24,3 +28,88 @@ Project  Setup
     Folder Structure : 
         Create a folder in React - npx create-react-app || VIT
 
+        Structure :
+            ATOMIC :
+                atoms,   
+                molecules,
+                organisums,
+                templates, and 
+                pages.
+
+            MVC - Model View Control:
+                    Model - API Response/JSON Data
+                    View - Component [HTML/CSS]
+                    Controls - Containers
+
+                    - node_modules
+                    - build
+                    - public   {build}
+                    - src
+                        -components
+                            - filename-components.js
+                            - filename-container.js
+                            - index.js
+                        - pages
+                            - dashboard-page.js
+                            -login-page.js
+                        - utils
+                            - helpers.js
+
+                    - index.html
+                    - package.json
+                    - package-lock.json
+                    - webpack-config.js
+
+
+Paytm - Modules
+
+Login Authentication: Dummy Json [JWT]
+    Happy Flow - Complete
+    story - Points
+
+    1,3,5,8,13 days 
+
+    - SMS Gateway Integration - OTP
+    - Gmail
+
+List of Categories:
+    - Shopping Cart
+        Products List
+    - Mobile Recharge
+        Gateway
+    -Payment
+        Payu/PhonePe - GateWay
+
+Real Time Servers :
+
+Localhost - for local Development
+    Frontend [React]
+    Backend [Middleware] - [Java/Node/PHP/Dot.Net]
+    DB[Oracle/mySql/MongoDB]
+
+    CI/CD Pipeline - DevOps -Jenkins
+    git dev -> npm build -> build -> Dev Server
+
+    Master - Stable Code
+    Release Branch - sprint1
+    Dev
+    FeatureBranch - For Our Own Development
+
+Dev - Unit Testing
+QA [Server Integration Testing]- Testers
+
+SignOff-
+
+
+UAT - User Accepetation Testing 
+UAT - Other Organaisation [Accenture]
+
+STAGE
+PRODUCTION
+
+
+RIA - Rich Internet Application (user accessibility) -->  ajax call | | axios
+--save-dev (to install only in dev)
+
+
+//Client - Admin Panel [AEM[Adobe Experience Manager] - CMS][similar to joomala and wordpress]
