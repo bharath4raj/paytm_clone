@@ -1,7 +1,13 @@
 {
-    "status":"SUCESS",
+    "status":"SUCCESS",
     "code":"100",
-    "data":["Paytm for Consumer","Paytm for Business","Inverstor Relations","Company","Career","Raj"]
+    "data":[
+        "Paytm for Consumer",
+        "Paytm for Business",
+        "Inverstor Relations",
+        "Company","Career",
+        "Raj"
+    ]
 }
 
 
