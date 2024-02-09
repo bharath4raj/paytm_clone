@@ -4,22 +4,35 @@ import DefaultHeaderComponent from "./default-header-component";
 const DefaultHeaderContainer = () => {
  
     const [menuItems, setMenuItems] = useState([]);
+    const [showModal,setShowModal] = useState(false)
 
   useEffect(() => {
     fetch("./responses/defaultNavLinks.json")
       .then((res) => res.json())
       .then((response) => {
-        // console.log("Ajax Response:", response);
         setMenuItems(response.data);
       });   
   }, []);
 
-  useEffect(() => {
-    console.log("menuItems", menuItems);
-  }, [menuItems]);
 
-  return <DefaultHeaderComponent menuItems={menuItems} />
+  const signInClickHandler = () =>{
+    console.log("Hello World!");
+    setShowModal(!showModal)
+  }
+
+  const closeModalHandler = () =>{
+    setShowModal(false);
+  }
+
+  return <DefaultHeaderComponent 
+        menuItems={menuItems} 
+        signInClickHandler={signInClickHandler}
+        closeModalHandler={closeModalHandler}
+        showModal={showModal}
+        />
 }
-export default DefaultHeaderContainer;
+
+
+export default DefaultHeaderContainer ;
 
 

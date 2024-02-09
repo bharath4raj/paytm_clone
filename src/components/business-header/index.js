@@ -1,3 +1,3 @@
-import BusinessHeader from "./business-header-component";
+import BusinessHeader from "./business-header-container";
 
 export default BusinessHeader;
