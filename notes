@@ -113,3 +113,30 @@ RIA - Rich Internet Application (user accessibility) -->  ajax call | | axios
 
 
 //Client - Admin Panel [AEM[Adobe Experience Manager] - CMS][similar to joomala and wordpress]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                {/* <Col>
+                    {
+                        loginForm.length > 0 && loginForm.map((item) => {
+                            return <Form params={item}/>
+                        })
+                    }
+                    
+                </Col> */}
+
+            </Row>
+
+        </div>
