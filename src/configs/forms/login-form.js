@@ -4,39 +4,11 @@ export const  loginForm = [
         label:"User Name",
         name:"username",
         id:"username",
-        validations: ["required","maxlength","minlength","onlyNumber"]
+        // validations: ["required","maxlength","minlength","onlyNumber"]
     },{
         type:"password",
         label:"Password",
         name:"password",
         id:"password"
-    },{
-        type:"select",
-        label:"Password",
-        name:"password",
-        id:"password",
-        options:[{
-            value:"1",
-            label:"ONE"
-        },{
-            value:"2",
-            label:"TWO"
-        },{
-            value:"3",
-            label:"THREE"
-        }]
-    },{
-        type:"file",
-        label:"Password",
-        name:"password",
-        id:"password"
-    },{
-        type:"radio",
-        label:"Male",
-        name:"gender",
-    },{
-        type:"radio",
-        label:"Fe-Male",
-        name:"gender",
     }
 ]
