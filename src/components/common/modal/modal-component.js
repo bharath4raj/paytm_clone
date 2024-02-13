@@ -31,6 +31,8 @@ const ModalComponent = (props) => {
                             })
                         }
                         <button className="loginBtn">Login</button>
+                        <button onClick={() => props.login()}>Sign in with Google 🚀{' '}</button>
+                        {/* <GoogleLogin /> */}
                     </div>
                 </div>
 
