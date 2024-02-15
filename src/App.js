@@ -2,6 +2,8 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import './App.css';
 import paytm_routes from "./configs/routes-config";
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import ErrorBoundary from "./hocs/ErrorBoundary";
+
 
 function App() {
   return (

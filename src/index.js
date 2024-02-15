@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap-icons';
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import {fas} from '@fortawesome/free-solid-svg-icons';
+
+// library.add(fas);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

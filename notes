@@ -118,25 +118,113 @@ RIA - Rich Internet Application (user accessibility) -->  ajax call | | axios
 
 
 
+KT[knowledge Transfer]
+
+JIRA
+
+Acceptance Criteria:
+
+    Google Authentication Option:
+        User should have the option to log in using their Google account on the login page.
+
+    Google Auth Button:
+        A Login with Google button should be prominenlty displayed on the login screen.
+
+    User Authorization:
+        Upon clicking the "Login with Google" button, user s should be redirected to the Google authentication page.
+
+        Users should be prompted to grant necessary permssions for authentication.
+
+    User Creation/Linking:
+        If the user is new and authenticates via Google,a new account should be created with the information retrieved from Google (name,email,etc)
+
+        If the user already exists in our system, their Google account should be linked to thier existing account.
+
+    Error Handling:
+        Appropriate error messages should be displayed if there are issues during the Google authentication process.
+        Users should be informed if the provided Google account is not associated with any account in our system.
+
+Agile:
+
+Spring Planning :
+
+Total Sprints  - 10
+1 sprint = 2 weeks 
+
+story -> starts wed -> ends wed [including testing]
+
+spill over -> when one week sprint is moved with next sprint
+
+agile board ->
+Kanban board -> agile model + waterfall model  Day 12 14:11 (For product mangment)
+v model
+
+Billability:
+Contracters(3rd party) -> 0
+
+Full Time :
+SE  -> 0
+SSE -> 3 YEARS -> $25/1hour
+TA -> 15 YEARS -> $100/1hour
+    Project 1 - 30% - 3 hour - Supporter
+    Project 2 - 70% - 7 hour - Deverloper
+
+Encryption algorithm
+
+componentDidMount()
+
+Life-cycle method :
+[            state                ]
+Mounting -> Updating -> Unmounting
+(loading)   (button)
+
+1.Class Component method -> can handle all life-cycle methods 
+2.Functional Component method -> cannot handle all life-cycle methods 
+
+LIBRARIES
+PLUGIN
+HOC(Higher order component)
+COMPONENTS-memo(getDerivedStateProps)
+FUNCTIONS
+Variables-useMemo
+
+Performance: 
+0.useMemo() -> name = "sai";(to control reassign value) ->done15
+1.react.memo(); -> HOC -Component (to control rerender)  ->done15
+2.useCallback(); - > Callback function (to stop rerender) ->done14
+
+{shouldComponentUpdate\drivedStateFromprops} component lifecyle->0
+getDerivedStateProps->0 lcm
+ 
+
+3.redux
+    connect - HOC
 
 
+4.Error Boundary -  flag[false]
+                getDerivedStateFromError(Error)                 
+            ComponentDidCatch(error,errorInfo)[log]
 
+5 useref:
+pure function -which donot depend on external variable 
+can get a value from redering
 
+6 usereducer
 
+7 usecontext
 
+Props are nothing but states 
 
+_________________________________________________________________
+        App.js     <--   component
+        (state)     -->   props
+_________________________________________________________________
+another(state)count setcount-->  button onClick={increment} -->
+function setcount((cv)= cv+1) --> rerendering
+______________________________________________________________
+returnvalue i<20    -->  App.js
 
+#HashRouter  instead of browserouter
+---->   SEO    <----   
 
-
-                {/* <Col>
-                    {
-                        loginForm.length > 0 && loginForm.map((item) => {
-                            return <Form params={item}/>
-                        })
-                    }
-                    
-                </Col> */}
-
-            </Row>
-
-        </div>
+UseContext ---> Context API --> Day 17
